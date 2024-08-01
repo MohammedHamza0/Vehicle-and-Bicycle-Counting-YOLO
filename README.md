@@ -8,8 +8,11 @@ This project is a real-time system for counting vehicles and bicycles using comp
 
 # Features
 Real-time Detection: Detects cars and bicycles in live video streams.
+
 Tracking: Tracks detected objects across frames to ensure accurate counting.
+
 Area-Based Counting: Counts vehicles and bicycles based on their entry into specific regions of the frame.
+
 Visual Feedback: Provides real-time visual feedback with bounding boxes and counts displayed on the video feed.
 
 # Requirements
@@ -26,9 +29,11 @@ YOLOv5 pre-trained model
 # Installation
 
 Clone the Repository:
+
 Clone this repository to your local machine.
 
 Install Dependencies:
+
 Install the necessary Python packages.
 
 Download YOLOv5 Model:
@@ -36,7 +41,9 @@ The YOLOv5 model will be automatically downloaded when running the script.
 
 # Usage
 Place your video file in the project directory.
+
 Run the script to start the vehicle and bicycle counting process.
+
 The system will display the video feed with real-time counts and object tracking.
 
 # Configuration
